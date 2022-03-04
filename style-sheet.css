@@ -1,0 +1,454 @@
+
+html {
+    background-color: white;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a:hover{
+    color: rgb(247, 122, 100);
+}
+
+/*Header */
+
+nav{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(245, 230, 207);
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.item1{
+    margin-top: 10px;
+    margin-right: 10px;
+    float:left;
+}
+
+.item2{
+    float: left;
+    margin-top: 20px; 
+    margin-left: 10px;
+    margin-right: 8%;
+}
+
+@media(max-width: 768px){
+
+    .item2{
+        display:none;
+    }
+} 
+
+.item3{
+    float: right;
+    margin-top: 12px; 
+}
+
+@media(min-width: 992px){
+
+    .item3{
+        display:none;
+    }
+} 
+
+.nervecontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.nerve{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+@media(max-width: 992px){
+
+    .nerve{
+        display:none;
+    }
+} 
+
+
+/* Inside Modal */
+
+.closebutton{
+    background-color: black;
+    text-align: center;
+    width: 150px;  
+    height: 40px; 
+}
+
+.modal-footer{
+    padding: 40px;
+}
+.modalnav{
+    color: black;
+    font-size: 150%;
+}
+
+ 
+
+/* Footer */
+
+footer {
+    padding: 20px 0px;
+    background-color: rgb(245, 230, 207);
+}
+
+footer h3 {
+    display: block;
+    color:rgb(247, 122, 100);
+    text-align: center;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+footer h2 {
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+div.picwrapper {
+    width:100%;
+    text-align:center;
+}
+
+.social {
+    width:10%;
+}
+
+@media (min-width:768px){
+
+     .social {
+         width: 85px;
+     }
+
+}
+
+@media (min-width:992px){
+
+    footer h3 {
+        display: block;
+        float:left;
+        margin-left: 16%;
+        margin-top: 20px;
+    }
+
+
+    footer h2 {
+        display: block;
+        float:left;
+        clear:left;
+        margin-left: 16%;
+    }
+
+}
+
+/* Index Page */
+
+.main{
+    width: 100%;
+}
+
+.firstmain{
+    background-color: rgb(245, 230, 207);
+    padding: 10px;
+    width: 100%;
+}
+
+.grabber{
+    color: black;
+    text-align: center;
+    font-size: 350%;
+    margin-top: 20%;
+    margin-bottom: 30px;
+}
+
+.subtext{
+    color: black;
+    text-align:center;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 30px;
+}
+
+.echinacea{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.buttonwrapper{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    color: whitesmoke;
+    background-color: black;
+    width: 300px;
+    height: 70px; 
+}
+
+@media(min-width: 608px){
+
+    .echinacea{
+        width: 570px;
+    }
+}
+
+@media(min-width: 992px){
+
+    .picture-wrapper{
+        display: flex;
+    }
+
+    .echinacea{
+        width: 100%;
+        margin-top: 0%;
+    }
+
+    .grabber{
+        text-align: left;
+        float: left;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    .subtext{
+        text-align: left;
+        float: left;
+        clear: left;
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 0px;
+    }
+
+    .firstmain{
+        padding-bottom: 100px;
+    }
+
+    .buttonwrapper{
+        display: block;
+        float: left;
+        clear: left;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+
+    button{
+        width: 300px;
+        margin-top: 30px;
+    }
+
+} 
+
+.secondmain{
+    background-color: rgb(247, 122, 100);
+    padding-top: 100px;
+}
+
+.grabber2{
+    color: white;
+    text-align: center;
+    font-size: 350%;
+}
+
+.subtext2{
+    color:white;
+    text-align:center;
+    margin-top: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+a.browse:hover{
+    color: black;
+}
+    
+
+.browse{
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 200%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flowergardenwrapper{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+@media(min-width: 992px){
+
+    .secondmain{
+        padding-bottom: 250px;
+        padding-top: 100px;
+    }
+
+    .grabber2 {
+        float: left;
+        text-align: left;
+        margin-top: 25px;
+        margin-left: 10%;
+        font-size: 330%;
+    }
+
+    .subtext2{
+        float: left;
+        clear: left;
+        text-align: left;
+        margin-left: 10%;
+    }
+
+    .flowergarden{
+        width: 100%;
+    }
+
+    .flowergardenwrapper{
+        display: grid;
+    }
+ 
+
+    .browse{
+        float: left;
+        clear: left;
+        margin-left: 10%;
+        margin-bottom: 10px;
+    }
+}
+
+.grabber3{
+    color: white;
+    text-align: center;
+    font-size: 350%
+}
+
+.subtext3{
+    color:white;
+    text-align:center;
+    margin-top: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.skullwrapper{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.learnmore{
+        color:white;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 200%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.thirdmain{
+    background-color: black;
+    padding-top: 80px;
+}
+
+@media(min-width: 992px){
+
+    .thirdmain{
+        padding-bottom: 250px;
+        padding-top: 100px;
+    }
+
+    .grabber3 {
+        float: right;
+        text-align: right;
+        margin-top: 25px;
+        margin-right: 10%;
+        font-size: 330%;
+    }
+
+    .subtext3{
+        float: right;
+        clear: right;
+        text-align: center;
+        margin-right: 10%;
+    }
+
+    .skull{
+        width: 100%;
+    }
+
+    .skullwrapper{
+      display: flex;
+    }
+ 
+
+    .learnmore{
+        float: right;
+        clear: right;
+        margin-right: 10%;
+    }
+}
+
+/* Contact Us Page */
+
+form h1 {
+    background-color: whitesmoke;
+    display:block;
+    padding: 0px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:rgb(17, 102, 1);
+}
+
+.inline {
+    text-align: center;
+    display:block;
+    width: 100%;
+    padding: 8px;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    display: block;
+    padding:5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*Plant Database Page */
+
+
+
+
+
+
+
